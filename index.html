@@ -1,19 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>NammaAI</title>
-    <!-- Load React and ReactDOM -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Load React & ReactDOM (for development) -->
     <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
-    <!-- Load Babel to compile JSX in-browser -->
+
+    <!-- Load Babel to compile JSX in the browser -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   </head>
+
   <body>
-    <!-- This is the root for your React app -->
+    <h1 style="text-align: center; font-family: sans-serif;">NammaAI Website</h1>
+
+    <!-- Root div where React will render the app -->
     <div id="root"></div>
 
-    <!-- Load your app.js with Babel -->
+    <!-- Your React App -->
     <script type="text/babel" src="app.js"></script>
   </body>
 </html>
